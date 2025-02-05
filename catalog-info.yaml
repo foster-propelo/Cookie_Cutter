@@ -1,0 +1,22 @@
+# file: catalog-info.yaml
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Foster-IDP-Test-CookieCutter
+  description: It is completely fake!
+  annotations:
+    developer.harness.io/RegisterNewSoftwareComponent: https://developer.harness.io/docs/internal-developer-portal/get-started/register-a-new-software-component
+    jira/project-key : IDP
+    backstage.io/techdocs-ref: https://developer.harness.io/docs/internal-developer-portal/overview
+  tags: 
+    - 'Foster'
+  links:
+    - url: https://developer.harness.io/docs/internal-developer-portal/catalog/software-catalog
+      title: IDP Documentation
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: service
+  lifecycle: production
+  owner: Foster
+  system: project-Flyers
